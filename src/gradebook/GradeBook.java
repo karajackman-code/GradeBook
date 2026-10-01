@@ -41,6 +41,9 @@ public class GradeBook {
 		gradeavg = Math.round(gradeavg);
 		gradeavg /= 100;
 		System.out.println("Class average: " + gradeavg);
+		if (gradeavg>80) {
+			System.out.println("Congratulations! You made honour roll!");
+		}
 		in.close();
 	}
 
